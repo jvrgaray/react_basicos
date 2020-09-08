@@ -1,9 +1,8 @@
 import React from 'react';
 
-function Header() {
-    const edad = 30;
+function Header({titulo}) {
     return(
-        <h1 id="encabezado" className="encabezado">Tienda Virtual</h1>
+    <h1 id="encabezado" className="encabezado">{titulo}</h1>
     )
 }
 
